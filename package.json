@@ -1,0 +1,28 @@
+{
+  "name": "json-to-toon",
+  "version": "1.0.0",
+  "description": "JSON to TOON converter - Reduce LLM token usage by 30-60%",
+  "scripts": {
+    "dev": "next dev -p 5000 -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start -p 5000 -H 0.0.0.0",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-icons": "^5.0.0",
+    "gpt-tokenizer": "^2.1.1",
+    "framer-motion": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
